@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef27d1bd-1abb-419c-a269-b586161d8397" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/events-promisses.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,31 +15,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4508">
-              <caret line="92" column="105" lean-forward="false" selection-start-line="92" selection-start-column="105" selection-end-line="92" selection-end-column="105" />
+            <state relative-caret-position="328">
+              <caret line="63" column="113" lean-forward="false" selection-start-line="63" selection-start-column="113" selection-end-line="63" selection-end-column="113" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="final.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="final.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/final.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1319">
-              <caret line="27" column="66" lean-forward="false" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+            <state relative-caret-position="532">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/custom.scss">
+      <file leaf-file-name="events-promisses.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/events-promisses.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4459">
-              <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state relative-caret-position="98">
+              <caret line="2" column="110" lean-forward="false" selection-start-line="2" selection-start-column="110" selection-end-line="2" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -62,6 +64,105 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GotoFileConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="ARCHIVE" />
+      <filtered-out-file-type name="ASP" />
+      <filtered-out-file-type name="ActionScript" />
+      <filtered-out-file-type name="AspectJ" />
+      <filtered-out-file-type name="Bazaar file" />
+      <filtered-out-file-type name="Blade" />
+      <filtered-out-file-type name="C#" />
+      <filtered-out-file-type name="C++" />
+      <filtered-out-file-type name="CSS" />
+      <filtered-out-file-type name="Chef file" />
+      <filtered-out-file-type name="CloudFoundry file" />
+      <filtered-out-file-type name="CoffeeScript" />
+      <filtered-out-file-type name="Cucumber" />
+      <filtered-out-file-type name="Cvs file" />
+      <filtered-out-file-type name="DATASOURCE_STORAGE" />
+      <filtered-out-file-type name="DTD" />
+      <filtered-out-file-type name="Darcs file" />
+      <filtered-out-file-type name="Database Element" />
+      <filtered-out-file-type name="Docker file" />
+      <filtered-out-file-type name="Dockerfile" />
+      <filtered-out-file-type name="ECMAScript 6" />
+      <filtered-out-file-type name="ESLint file" />
+      <filtered-out-file-type name="Enforced Plain Text" />
+      <filtered-out-file-type name="Erlang" />
+      <filtered-out-file-type name="Floobits file" />
+      <filtered-out-file-type name="Flow" />
+      <filtered-out-file-type name="Fossil file" />
+      <filtered-out-file-type name="Git exclude file" />
+      <filtered-out-file-type name="Git file" />
+      <filtered-out-file-type name="H2 Database" />
+      <filtered-out-file-type name="HTML" />
+      <filtered-out-file-type name="Haml" />
+      <filtered-out-file-type name="Haskell" />
+      <filtered-out-file-type name="IDEA_MODULE" />
+      <filtered-out-file-type name="IDEA_PROJECT" />
+      <filtered-out-file-type name="IDEA_WORKSPACE" />
+      <filtered-out-file-type name="IDL" />
+      <filtered-out-file-type name="Ignore file" />
+      <filtered-out-file-type name="Images" />
+      <filtered-out-file-type name="Ini" />
+      <filtered-out-file-type name="JQL" />
+      <filtered-out-file-type name="JSCS" />
+      <filtered-out-file-type name="JSHint" />
+      <filtered-out-file-type name="JSHint file" />
+      <filtered-out-file-type name="JSON" />
+      <filtered-out-file-type name="JSP" />
+      <filtered-out-file-type name="JSX Harmony" />
+      <filtered-out-file-type name="JavaFX" />
+      <filtered-out-file-type name="JavaScript" />
+      <filtered-out-file-type name="Jetpack file" />
+      <filtered-out-file-type name="Kubernetes Helm file" />
+      <filtered-out-file-type name="Less" />
+      <filtered-out-file-type name="Literate CoffeeScript" />
+      <filtered-out-file-type name="Locale" />
+      <filtered-out-file-type name="Markdown" />
+      <filtered-out-file-type name="Mercurial file" />
+      <filtered-out-file-type name="Monotone file" />
+      <filtered-out-file-type name="Native" />
+      <filtered-out-file-type name="Nodemon file" />
+      <filtered-out-file-type name="Npm file" />
+      <filtered-out-file-type name="PATCH" />
+      <filtered-out-file-type name="PHAR" />
+      <filtered-out-file-type name="PHP" />
+      <filtered-out-file-type name="PLAIN_TEXT" />
+      <filtered-out-file-type name="Perforce file" />
+      <filtered-out-file-type name="Perl" />
+      <filtered-out-file-type name="Prettier file" />
+      <filtered-out-file-type name="RNG Compact" />
+      <filtered-out-file-type name="ReST" />
+      <filtered-out-file-type name="RegExp" />
+      <filtered-out-file-type name="SCSS" />
+      <filtered-out-file-type name="SQL" />
+      <filtered-out-file-type name="SQLite Database" />
+      <filtered-out-file-type name="Sass" />
+      <filtered-out-file-type name="Scratch" />
+      <filtered-out-file-type name="Smarty" />
+      <filtered-out-file-type name="SmartyConfig" />
+      <filtered-out-file-type name="SourceMap" />
+      <filtered-out-file-type name="StyleLint file" />
+      <filtered-out-file-type name="Stylint file" />
+      <filtered-out-file-type name="Swagger Codegen file" />
+      <filtered-out-file-type name="TSLint" />
+      <filtered-out-file-type name="Team Foundation file" />
+      <filtered-out-file-type name="Twig" />
+      <filtered-out-file-type name="TypeScript" />
+      <filtered-out-file-type name="TypeScript JSX" />
+      <filtered-out-file-type name="UML" />
+      <filtered-out-file-type name="UNKNOWN" />
+      <filtered-out-file-type name="Up file" />
+      <filtered-out-file-type name="XHTML" />
+      <filtered-out-file-type name="XML" />
+      <filtered-out-file-type name="YAML" />
+      <filtered-out-file-type name="YouTrack" />
+      <filtered-out-file-type name="htaccess" />
+      <filtered-out-file-type name="textmate" />
+    </file-type-list>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -73,8 +174,9 @@
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/final.js" />
         <option value="$PROJECT_DIR$/stylesheets/custom.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/final.js" />
+        <option value="$PROJECT_DIR$/js/events-promisses.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -89,7 +191,9 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -105,24 +209,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="js-fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-fundamentals" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js-events-promises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-events-promises" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="js-fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-fundamentals" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="stylesheets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js-events-promises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-events-promises" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,11 +269,12 @@
       <updated>1510222623790</updated>
       <workItem from="1510222625111" duration="16973000" />
       <workItem from="1510313043878" duration="304000" />
+      <workItem from="1510339155545" duration="3144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17277000" />
+    <option name="totallyTimeSpent" value="20421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -218,6 +323,30 @@
     <entry file="file://$PROJECT_DIR$/stylesheets/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4459">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/final.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="27" column="66" lean-forward="false" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4508">
+          <caret line="92" column="105" lean-forward="false" selection-start-line="92" selection-start-column="105" selection-end-line="92" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4459">
           <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
         </state>
@@ -254,18 +383,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/final.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4508">
-          <caret line="92" column="105" lean-forward="false" selection-start-line="92" selection-start-column="105" selection-end-line="92" selection-end-column="105" />
+        <state relative-caret-position="532">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/final.js">
+    <entry file="file://$PROJECT_DIR$/js/events-promisses.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1319">
-          <caret line="27" column="66" lean-forward="false" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+        <state relative-caret-position="98">
+          <caret line="2" column="110" lean-forward="false" selection-start-line="2" selection-start-column="110" selection-end-line="2" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="63" column="113" lean-forward="false" selection-start-line="63" selection-start-column="113" selection-end-line="63" selection-end-column="113" />
           <folding />
         </state>
       </provider>

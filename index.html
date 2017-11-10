@@ -51,7 +51,7 @@
                 This is an Interns Portal for calculating the Net pay for interns. It takes in the gross pay and
                 deductions and then calculates the net on click of a button.
             </p>
-            <a class = "btn btn-default btn-lg" href = "#" target = "_parent">Calculate Net Pay Here</a>
+            <a class = "btn btn-default btn-lg" href = "#net-pay" target = "_parent">Calculate Net Pay Here</a>
         </div>
     </div>
     <!--header section ends-->
@@ -60,37 +60,38 @@
     <div class = "net-pay" id = "net-pay">
         <div class = "container">
             <h2>Calculate Your Net Pay Here</h2>
-            <form>
+            <form name="intern" onsubmit="event.preventDefault(); return validateForm()" method="post">
+                <!--In the form tag above, onsubmit has the event.preventDefault() which prevents from from auto submitting-->
                 <fieldset>
                     <div class = "row">
                         <div class = "col-md-6 col-lg-6">
                             <div class = "form-group has-success">
                                 <label class = "form-control-label">Basic Salary</label>
                                 <input type = "number" class = "form-control is-valid" id = "basic-salary"
-                                       placeholder = "KSH 120000" min="0" value="0" name = "basic-salary">
+                                       placeholder = "KSH 120000"  name = "basic-salary">
                             </div>
                             <div class = "form-group has-success">
                                 <label class = "form-control-label">NSSF Deduction</label>
                                 <input type = "number" class = "form-control is-valid" id = "nssf" name = "nssf"
-                                       placeholder = "KSH 250" value="0" min="0">
-                            </div>
-                            <div class = "form-group has-success">
-                                <button type = "button" class = "btn btn-success btn-lg btn-block"
-                                        name = "calculate-button" id = "calculate-button"
-                                        onclick = "onCalculateSubmit()">Calculate
-                                </button>
+                                       placeholder = "KSH 250">
                             </div>
                         </div>
                         <div class = "col-md-6 col-lg-6">
                             <div class = "form-group has-success">
                                 <label class = "form-control-label">NHIF Deduction</label>
                                 <input type = "number" class = "form-control is-valid" id = "nhif" name = "nhif"
-                                       placeholder = "KSH 850" value="0">
+                                       placeholder = "KSH 850">
                             </div>
                             <div class = "form-group has-success">
                                 <label class = "form-control-label">Other Deduction</label>
                                 <input type = "number" class = "form-control is-valid" id = "other-deduction"
-                                       name = "other-deduction" placeholder = "E.g HELB KSH 500" value="0">
+                                       name = "other-deduction" placeholder = "E.g HELB KSH 500">
+                            </div>
+                            <div class = "form-group has-success">
+                                <button type = "submit" class = "btn btn-success btn-lg btn-block"
+                                        name = "calculate-button" id = "calculate-button"
+                                        value="Submit">Calculate
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -122,5 +123,6 @@
     </div>
     <!--footer section ends-->
     <script src = "js/final.js"></script>
+    <script src = "js/events-promisses.js"></script>
 </body>
 </html>
