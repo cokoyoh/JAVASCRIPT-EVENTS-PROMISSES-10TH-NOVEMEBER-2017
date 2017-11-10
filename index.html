@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity = "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin = "anonymous">
+    <link rel = "stylesheet" href = "/stylesheets/custom.css">
+    <link href = "https://fonts.googleapis.com/css?family=Lato:700|Noto+Sans|Source+Sans+Pro:300" rel = "stylesheet">
+    <script src = "https://use.fontawesome.com/0430e3247e.js"></script>
+    <title>JavaScript</title>
+</head>
+<body>
+    <!--nav bar begins here-->
+    <div class = "navbar-class">
+        <nav class = "navbar navbar-default">
+            <div class = "container-fluid">
+                <div class = "navbar-header">
+                    <button type = "button" class = "navbar-toggle collapsed" data-toggle = "collapse"
+                            data-target = "#navbar" aria-expanded = "false" aria-controls = "navbar">
+                        <span class = "sr-only">Toggle navigation</span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                    </button>
+                    <a class = "navbar-brand" href = "#">JavaScript</a>
+                </div>
+                <div id = "navbar" class = "navbar-collapse collapse">
+                    <ul class = "nav navbar-nav">
+                        <li class = "active"><a href = "#">Home</a></li>
+                        <li><a href = "#">About</a></li>
+                        <li><a href = "#">Contact</a></li>
+                    </ul>
+                    <ul class = "nav navbar-nav navbar-right">
+                        <li class = "active"><a href = "./">Default <span class = "sr-only">(current)</span></a></li>
+                        <li><a href = "../navbar-static-top/">Static top</a></li>
+                        <li><a href = "../navbar-fixed-top/">Fixed top</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+        </nav>
+    </div>
+    <!--nav bar ends here-->
+
+    <!--header section begins-->
+    <div class = "header" id = "header">
+        <div class = "container">
+            <h2>Welcome to Intern Portal</h2>
+            <p>
+                This is an Interns Portal for calculating the Net pay for interns. It takes in the gross pay and
+                deductions and then calculates the net on click of a button.
+            </p>
+            <a class = "btn btn-default btn-lg" href = "#" target = "_parent">Calculate Net Pay Here</a>
+        </div>
+    </div>
+    <!--header section ends-->
+
+    <!--net pay section begins here-->
+    <div class = "net-pay" id = "net-pay">
+        <div class = "container">
+            <h2>Calculate Your Net Pay Here</h2>
+            <form>
+                <fieldset>
+                    <div class = "row">
+                        <div class = "col-md-6 col-lg-6">
+                            <div class = "form-group has-success">
+                                <label class = "form-control-label">Basic Salary</label>
+                                <input type = "number" class = "form-control is-valid" id = "basic-salary"
+                                       placeholder = "KSH 120000" min="0" value="0" name = "basic-salary">
+                            </div>
+                            <div class = "form-group has-success">
+                                <label class = "form-control-label">NSSF Deduction</label>
+                                <input type = "number" class = "form-control is-valid" id = "nssf" name = "nssf"
+                                       placeholder = "KSH 250" value="0" min="0">
+                            </div>
+                            <div class = "form-group has-success">
+                                <button type = "button" class = "btn btn-success btn-lg btn-block"
+                                        name = "calculate-button" id = "calculate-button"
+                                        onclick = "onCalculateSubmit()">Calculate
+                                </button>
+                            </div>
+                        </div>
+                        <div class = "col-md-6 col-lg-6">
+                            <div class = "form-group has-success">
+                                <label class = "form-control-label">NHIF Deduction</label>
+                                <input type = "number" class = "form-control is-valid" id = "nhif" name = "nhif"
+                                       placeholder = "KSH 850" value="0">
+                            </div>
+                            <div class = "form-group has-success">
+                                <label class = "form-control-label">Other Deduction</label>
+                                <input type = "number" class = "form-control is-valid" id = "other-deduction"
+                                       name = "other-deduction" placeholder = "E.g HELB KSH 500" value="0">
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <!--net pay section ends here-->
+
+    <!--footer section begins-->
+    <div class = "footer" id = "footer">
+        <div class = "container">
+            <div class = "col-lg-6 col-md-6">
+                <h2>Contacts</h2>
+                <i class = "fa fa-home contact" aria-hidden = "true"></i>123, Westlands <br>
+                <i class = "fa fa-envelope-o contact" aria-hidden = "true"></i>info@sass.com <br>
+                <i class = "fa fa-phone contact" aria-hidden = "true"></i>+2541231289 <br>
+            </div>
+
+            <div class = "col-lg-6 col-md-6">
+                <h2>Social Media</h2>
+                <i class = "fa fa-facebook social" aria-hidden = "true"></i>
+                <i class = "fa fa-instagram social" aria-hidden = "true"></i>
+                <i class = "fa fa-twitter social" aria-hidden = "true"></i>
+                <i class = "fa fa-pinterest-p social" aria-hidden = "true"></i> <br>
+                <p>Copyright <i class = "fa fa-copyright" aria-hidden = "true"></i> 2017. Bootstrap</p>
+            </div>
+        </div>
+    </div>
+    <!--footer section ends-->
+    <script src = "js/final.js"></script>
+</body>
+</html>
