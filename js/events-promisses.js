@@ -1,17 +1,6 @@
 'use strict';
 var isValidated  = false;
 
-//Define a promise to calculate if isValidated is true
-const netSalary = new Promise(function(resolve,reject){
-    if(isValidated){
-        var success = "Validation Passed"
-        resolve(success)
-    }else {
-        var error = new Error("validation failed")
-        reject(error)
-    }
-});
-
 //This function will validate the form on built-in function onsubmit and calls the function displayNetsalary()
  function validateForm() {
        var basic_salary =  parseInt(document.getElementById("basic-salary").value);
@@ -26,14 +15,39 @@ const netSalary = new Promise(function(resolve,reject){
                if(nhif >= 0){
                    console.log("Got nhif value")
                    if(other_deductions >= 0){
-                       isValidated = true;
-                       console.log(isValidated)
-                       //Define a promise here to take care of stuff is is validate is true
+                       if(validationPassed) {
+                           console.log(isValidated)
+                           //Call the promise here
+                       }
                    } else {
                        alert("Please enter some value in the other deductions section")
                    }
                } else alert("Please enter some value in the nhif section")
            } else alert("Please enter some value in the nssf section")
        } else alert("Please enter some value in the basic salary section")
+     console.log(final_output,"here")
+
+     return final_output
  }
+
+//Define a promise to calculate if isValidated is true
+var validationPassed = new Promise(function(resolve,reject){
+    if(isValidated){
+        var success = "Validation Passed";
+        resolve(success)
+    }else {
+        var reason = new Error("Validation failed");
+        reject(reason)
+    }
+});
+
+var netSalary = function () {
+    validationPassed.then(function (fulfilled) {
+        console.log(fulfilled)
+    })
+        .catch(function (error) {
+            console.log(error.message)
+        })
+}
+netSalary()
 
