@@ -60,6 +60,13 @@
     <div class = "net-pay" id = "net-pay">
         <div class = "container">
             <h2>Calculate Your Net Pay Here</h2>
+
+            <form id="msgbox" action="#" method="get">
+                <label for="msg">Your message</label>
+                <input id="msg" value="" />
+                <a class="btn btn-sm btn-success" type="submit">Send Message</a>
+            </form>
+            <br> <br>
             <form name="intern" onsubmit="event.preventDefault(); return validateForm()" method="post">
                 <!--In the form tag above, onsubmit has the event.preventDefault() which prevents from from auto submitting-->
                 <fieldset>

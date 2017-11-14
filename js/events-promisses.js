@@ -51,3 +51,12 @@ var netSalary = function () {
 }
 netSalary()
 
+//This is for custom events. This displays the message entered in the message box
+document.getElementById("msgbox").addEventListener("submit", function(e) {
+    e.preventDefault();
+    var msg = e.currentTarget.getElementById("msg").value.trim();
+    if (msg) {
+        alert(msg);
+    }
+}, false);
+
